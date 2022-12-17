@@ -1,0 +1,46 @@
+/*
+Theme Name: Padma
+Theme URI: https://wordpress.org/themes/twentytwenty/
+Author: ZIADUL HAQ
+Author URI: https://wordpress.org/
+Description: Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. e ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered conte The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Version: 1.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+*/
+*{
+    padding: 0;
+    margin: 0;
+}
+/* header  */
+.slider{
+    position: absolute;
+}
+/* header end */
+
+/* logo part */
+.logo{
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+/* logo part end */
+.menu_1{
+    margin-top: 300px;
+  
+}
+.menu_1 li{
+padding-right: 10px;
+}
+.menu_1 li a{
+   padding: 20px 10px;
+    text-decoration: none;
+    color: black;
+}
+.menu_1 li a:hover{
+    background-color: rgb(255, 208, 0);
+    padding: 10px;
+}
