@@ -24,8 +24,50 @@ register_sidebar([
 	'after_widget'   => "",
 ]);
 register_sidebar([
+    'name'=>'card img 2',
+    'id'=>'cardimg2',
+    'before_widget'  => '',
+	'after_widget'   => "",
+]);
+register_sidebar([
+    'name'=>'card img 3',
+    'id'=>'cardimg3',
+    'before_widget'  => '',
+	'after_widget'   => "",
+]);
+register_sidebar([
     'name'=>'card body 1',
     'id'=>'cardbody1',
+    'before_widget'  => '',
+	'after_widget'   => "",
+]);
+register_sidebar([
+    'name'=>'card body 2',
+    'id'=>'cardbody2',
+    'before_widget'  => '',
+	'after_widget'   => "",
+]);
+register_sidebar([
+    'name'=>'card body 3',
+    'id'=>'cardbody3',
+    'before_widget'  => '',
+	'after_widget'   => "",
+]);
+register_sidebar([
+    'name'=>'Marquee',
+    'id'=>'marquee',
+    'before_widget'  => '',
+	'after_widget'   => "",
+]);
+register_sidebar([
+    'name'=>'footerleft',
+    'id'=>'footer_left',
+    'before_widget'  => '',
+	'after_widget'   => "",
+]);
+register_sidebar([
+    'name'=>'footerright',
+    'id'=>'footer_right',
     'before_widget'  => '',
 	'after_widget'   => "",
 ]);
